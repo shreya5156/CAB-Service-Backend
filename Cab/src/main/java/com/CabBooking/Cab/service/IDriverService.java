@@ -4,5 +4,5 @@ import com.CabBooking.Cab.representation.request.DriverRegisterRequest;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface IDriverService {
-    String registerDriver(@RequestBody DriverRegisterRequest driverRegisterRequest );
+    String registerDriver( DriverRegisterRequest driverRegisterRequest );
 }

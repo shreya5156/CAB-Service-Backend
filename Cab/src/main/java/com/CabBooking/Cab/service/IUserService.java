@@ -5,6 +5,6 @@ import com.CabBooking.Cab.representation.request.UserRegisterRequest;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface IUserService {
-    String registerUser(@RequestBody UserRegisterRequest userRegisterRequest);
+    String registerUser( UserRegisterRequest userRegisterRequest);
 
 }
