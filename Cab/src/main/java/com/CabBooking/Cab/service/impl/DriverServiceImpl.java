@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class DriverServiceImpl implements IDriverService {
-    List<DriverAvailabilityDetailsDTO> driverAvailabilityDetailsDTOList = new ArrayList<>();
+    static List<DriverAvailabilityDetailsDTO> driverAvailabilityDetailsDTOList = new ArrayList<>();
 
     @Override
     public String registerDriver(DriverRegisterRequest driverRegisterRequest) {
