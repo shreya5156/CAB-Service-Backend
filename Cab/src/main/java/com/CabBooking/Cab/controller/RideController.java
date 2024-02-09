@@ -3,10 +3,8 @@ package com.CabBooking.Cab.controller;
 import com.CabBooking.Cab.representation.dto.DriverAvailabilityDetailsDTO;
 import com.CabBooking.Cab.representation.request.ChooseRideRequest;
 import com.CabBooking.Cab.representation.request.FindRideRequest;
-import com.CabBooking.Cab.representation.request.UserRegisterRequest;
 import com.CabBooking.Cab.service.IChooseRideService;
 import com.CabBooking.Cab.service.IFindRideService;
-import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +17,6 @@ import java.util.List;
 public class RideController {
 
     private IFindRideService iFindRideService;
-    @Setter
     private IChooseRideService iChooseRideService;
 
     @Autowired
