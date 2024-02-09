@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface IFindRideService {
      List<DriverAvailabilityDetailsDTO> findRide( FindRideRequest findRideRequest);
+
+     List<DriverAvailabilityDetailsDTO> getAvailableDrivers();
 }
