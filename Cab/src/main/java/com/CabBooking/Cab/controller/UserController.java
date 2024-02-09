@@ -1,6 +1,5 @@
 package com.CabBooking.Cab.controller;
 
-import com.CabBooking.Cab.representation.request.DriverRegisterRequest;
 import com.CabBooking.Cab.representation.request.UserRegisterRequest;
 import com.CabBooking.Cab.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;

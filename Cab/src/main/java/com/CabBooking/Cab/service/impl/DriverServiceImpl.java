@@ -4,7 +4,6 @@ import com.CabBooking.Cab.representation.dto.DriverAvailabilityDetailsDTO;
 import com.CabBooking.Cab.representation.request.DriverRegisterRequest;
 import com.CabBooking.Cab.service.IDriverService;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
